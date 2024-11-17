@@ -2,12 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 
 .navbar {
   display: flex;
   justify-content: center;
-  background-color:#db8b8b ;
+  background-color: #db8b8b;
   padding: 2em;
 }
 
@@ -20,147 +21,183 @@ body {
   font-weight: 45%;
 }
 
-.main{
+.main {
   padding: 2em;
   background-image: url('back.jpg');
-  background-size: cover;         
-  background-position: center;    
-  height: 82vh;                  
-  background-repeat: no-repeat; 
-  text-align: center; 
-  
-  }
-  
+  background-size: cover;
+  background-position: center;
+  height: 82vh;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
 .footer {
   background-color: #8b6c47;
   text-align: center;
-  padding: 4px;;
+  padding: 4px;
   position: fixed;
   width: 100%;
   bottom: 0;
-  
 }
-
 
 .footer a {
   color: aliceblue;
 }
 
-.Heading{
+.Heading {
   font-size: 255%;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-right: 70vmin;
   padding-left: 7vmin;
   text-align: center;
-  padding-top: 00vmin;
+  padding-top: 0;
   padding-bottom: none;
-
 }
 
-button{
-  background-color:#8b6c47;
+button {
+  background-color: #8b6c47;
   font-size: larger;
   border-image-outset: 10vmin;
   padding-left: 40vmin;
-
-   
- 
 }
 
-.Text{
+.Text {
   padding-right: 70vmin;
   padding-left: 7vmin;
   padding-top: none;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
-
-button{
+button {
   margin-left: 7vmin;
   margin-right: 70vmin;
   size: initial;
   font-size: x-large;
   text-align: center;
   padding: 1vmin;
-
-
 }
 
-.Tips{
-  background-image: url(Back2.jpg) ;
-  padding: 2em; 
-  background-size: cover;         
-  background-position: center;    
-  height: 80vh;                  
-  background-repeat: no-repeat; 
-  text-align: center; 
-  
+.Tips {
+  background-image: url(Back2.jpg);
+  padding: 2em;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
-h1{
+h1 {
   text-align: left;
   color: black;
 }
 
-h2{
+h2 {
   text-align: left;
   color: palevioletred;
 }
 
-.List{
+.List {
   text-align: left;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: large;
   color: black;
 }
 
-.About{
+.About {
   background-image: url(back3.jpg);
-  padding: 2em; 
-  background-size: cover;         
-  background-position: center;    
-  height: 75vh;                  
-  background-repeat: no-repeat; 
+  padding: 2em;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  background-repeat: no-repeat;
   text-align: center;
-  
 }
-.Paragraph{
- 
-  text-align:left;
+
+.Paragraph {
+  text-align: left;
   font-size: x-large;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding-left: 70vmin;
   padding-right: 70vmin;
   color: #db8b8b;
- 
-
 }
 
-p{
+p {
   font-size: larger;
 }
 
-.Head{
-   text-align: left;
-   font-family: Arial, Helvetica, sans-serif;
-  
+.Head {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  font-size: 16px;
-}
+@media (max-width: 1200px) {
+  .navbar a {
+    font-size: large;
+  }
 
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
+  .Heading {
+    font-size: 200%;
+  }
+
+  .main, .Tips, .About {
+    padding: 1em;
+  }
+
+  button {
+    font-size: large;
   }
 }
 
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1em;
+  }
 
-@media (min-width: 1024px) {
-  body {
-    font-size: 20px;
+  .navbar a {
+    margin: 0.5em 0;
+  }
+
+  .Heading {
+    font-size: 180%;
+  }
+
+  .Paragraph {
+    font-size: large;
+  }
+
+  button {
+    font-size: large;
+    padding: 0.5em 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5em;
+  }
+
+  .navbar a {
+    font-size: medium;
+  }
+
+  .Heading {
+    font-size: 150%;
+  }
+
+  .main, .Tips, .About {
+    padding: 1em;
+  }
+
+  .Paragraph {
+    font-size: medium;
+  }
+
+  button {
+    font-size: medium;
+    padding: 0.5em 1em;
   }
 }
