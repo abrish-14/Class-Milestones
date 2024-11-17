@@ -13,8 +13,8 @@ const About = () => (
       for their skin. Remember, skincare is a personal journey—so embrace each step, and let
        your natural beauty shine. Happy glowing!"</p></div>
     </main>
-    <Footer />
+    <Footer />  
   </>
 );
 
-export default About;
+export default About;  
