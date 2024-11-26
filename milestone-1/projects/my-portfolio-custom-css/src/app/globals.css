@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #5c97ace6; 
+  color: #333;
+}
+
+.main {
+  background-image: url(background.jpg);
+  height: 100vh;
+  background-size: cover;
+  width: 100vw; 
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #04024f;
+  padding: 2em;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(247, 238, 238);
+  font-size: 2rem; 
+}
+
+.footer {
+  background-color: #2d2c2c;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: #ddd;
+  font-size: 1.5rem; 
+  font-weight: 200;
+}
+
+.link {
+  padding-inline-end: 15vmin;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Intro {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 5vmin; 
+  padding-right: 90vmin;
+  color: rgb(4, 36, 96);
+  animation: fadeIn 1s ease-in-out;   
+}
+
+.Heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  padding-left: 25vmin;
+  padding-top: 15vmin;
+  font-size: 5vmin;
+}
+
+.Heading2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  padding-left: 10vmin;
+  font-size: 5vmin;
+}
+
+.Heading3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  font-size: 5vmin;
+}
+
+.Heading4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 5vmin;
+}
+
+.Details {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 2.5vmin; 
+  color: rgb(4, 36, 96);
+  padding-left: 5vw; 
+  animation: fadeIn 1s ease-in-out; 
+}
+
+.Detail {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem; 
+  color: #04024f;
+}
+
+.container1 {
+  background-image: url(background2.jpg);
+  height: 100vh;
+  background-size: cover;
+  width: 100vw; 
+  background-repeat: no-repeat;
+}
+
+.Projects {
+  background-image: url(background3.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.projectList {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+
+.projectItem {
+  flex: 1; 
+  margin: 10px; 
+  max-width: 45%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  padding: 10px; 
+  border-radius: 3px; 
+}
+
+.projectImage {
+  max-width: 100%; 
+  height: 49vmin; 
+}
+
+.Contact {
+  background-image: url(background4.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding: 20vmin;
+  padding-right: 97vmin;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 20px;
+  font-size: 1rem; 
+  border: 1px solid rgb(96, 17, 187)
+}
