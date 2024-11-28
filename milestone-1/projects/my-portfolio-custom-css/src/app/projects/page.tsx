@@ -1,4 +1,3 @@
-'use client';
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
@@ -34,7 +33,6 @@ const Projects = () => {
                         View Project
                     </a>
                 </div>
-                {/* Add more projects here */}
             </div>
             <Footer />
         </div>
